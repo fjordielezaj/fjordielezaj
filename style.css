@@ -1,4 +1,4 @@
-/* Reset styles */
+/*Reset styles */
 * {
     margin: 0;
     padding: 0;
@@ -8,18 +8,19 @@
   /* Body styles */
   body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #F5F5DC;
   }
   
   /* Header styles */
   header {
-    background-color: #333;
-    color: #fff;
+    background-color: #F5F5DC;
+    color: #000000;
     padding: 20px;
+    border: 2px solid #000000
   }
   
   header h1 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
   }
   
@@ -51,9 +52,9 @@
   
   /* Main styles */
   main {
-    max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    border: 3px solid #000000
   }
   
   main h2 {
@@ -65,13 +66,13 @@
     font-size: 18px;
     line-height: 1.5;
     margin-bottom: 20px;
+   
   }
   
   /* Footer styles */
   footer {
-    background-color: #333;
+    background-color: #555;
     color: #fff;
     padding: 10px;
     text-align: center;
   }
-  
